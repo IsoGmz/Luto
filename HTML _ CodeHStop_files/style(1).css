@@ -1,0 +1,23 @@
+body {
+    background-image: url('https://codehs.com/uploads/ce3f8ddbfa2b0a2a2a84c5a6d196dbd1'); /* 1 */
+    background-position: center;                   /* 3 */
+    height: 300px;                                 /* 5 */
+    color: white;                                  /* 6 */
+    padding-top: 100px;                            /* 7 */
+    /* Add a fallback background color */
+    background-color: #cccccc;
+}
+.bg-purple-custom {
+  background-color:#120239 
+}
+.dropdown-menu {
+    display: flex;         /* Enables flexbox on the UL container */
+    flex-direction: column; /* Stacks the items vertically */
+    align-items: center;   /* Centers items horizontally within the container */
+    list-style: none;      /* Removes bullet points */
+    padding: 0;            /* Optional: adjust padding as needed */
+  }
+  .purple {
+        color:#AA23FF
+
+  }
